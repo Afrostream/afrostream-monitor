@@ -25,7 +25,8 @@ const list = [
   { url: 'https://afrostream.herokuapp.com/alive', metric: 'alive.afrostream.origin', type:'alive' },
   { url: 'https://beta.afrostream.tv/alive', metric: 'alive.afrostream-beta.cdn.beta', type:'alive' },
   { url: 'https://afrostream-beta.herokuapp.com/alive', metric: 'alive.afrostream-beta.origin', type:'alive' },
-  // images (FIXME)
+  // images
+  { url: 'https://images-orange.cdn.afrostream.net/status.txt', metric: 'alive.imgix.cdn.images-orange', type:'200ok' }
 ];
 
 const status = {};
