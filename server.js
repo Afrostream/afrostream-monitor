@@ -66,7 +66,7 @@ setInterval(() => {
           },
           (err) => {
             status[metric] = { lastCheck: new Date(), status: 'ERROR', error: err.message };
-            console.error('[ERROR]: ' + err.message);
+            console.error('[ERROR]: ' + metric + ': ' + err.message);
           }
         );
     }, i * 3000); // N * 3sec.
