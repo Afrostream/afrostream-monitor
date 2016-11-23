@@ -1,0 +1,21 @@
+{
+  "name": "afrostream-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "afrostream-node-app": "git+https://afrostream-tech:d51e355769ddd0fd212084c35fb99f71ab4146b2@github.com/Afrostream/afrostream-node-app.git#v2.4.0",
+    "afrostream-node-statsd": "git+https://afrostream-tech:d51e355769ddd0fd212084c35fb99f71ab4146b2@github.com/Afrostream/afrostream-node-statsd.git#v1.3.0",
+    "express": "^4.14.0",
+    "q": "^1.4.1",
+    "request": "^2.79.0"
+  }
+}
