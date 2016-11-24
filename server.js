@@ -28,7 +28,7 @@ const list = [
   { url: 'https://beta.afrostream.tv/alive', metric: 'alive.afrostream-beta.cdn.beta', type:'alive' },
   { url: 'https://afrostream-beta.herokuapp.com/alive', metric: 'alive.afrostream-beta.origin', type:'alive' },
   // billings
-  { url: 'https://afrostream-billings.herokuapp.com/alive', metric: 'alive.afrostream-billings.origin', type:'alive'},
+  { url: 'http://afrostream-billings.herokuapp.com/alive', metric: 'alive.afrostream-billings.origin', type:'alive'},
   // images
   { url: 'https://images-orange.cdn.afrostream.net/status.txt', metric: 'alive.imgix.cdn.images-orange', type:'200ok' }
 ];
