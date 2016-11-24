@@ -9,11 +9,13 @@ ans.init({
 });
 
 const list = [
-  // afrostream-back-end
+  // afrostream-backend
   { url: 'https://legacy-api-orange.afrostream.tv/alive', metric: 'alive.afrostream-back-end.cdn.legacy-api-orange', type:'alive' },
   { url: 'https://legacy-api-bouygues.afrostream.tv/alive', metric: 'alive.afrostream-back-end.cdn.legacy-api-bouygues', type:'alive' },
   { url: 'https://legacy-api.afrostream.tv/alive', metric: 'alive.afrostream-back-end.cdn.legacy-api', type:'alive' },
   { url: 'https://afrostream-backend.herokuapp.com/alive', metric: 'alive.afrostream-back-end.origin', type:'alive' },
+  // afrostream-backend-box
+  { url: 'https://afrostream-backend-box.herokuapp.com/alive', metric: 'alive.afrostream-backend-box.origin', type:'alive' },
   // afrostream-api-stats
   { url: 'https://api-stats-orange.afrostream.tv/alive', metric: 'alive.afrostream-api-stats.cdn.orange', type:'alive' },
   { url: 'https://afrostream-api-stats.herokuapp.com/alive', metric: 'alive.afrostream-api-stats.origin', type:'alive' },
@@ -25,6 +27,8 @@ const list = [
   { url: 'https://afrostream.herokuapp.com/alive', metric: 'alive.afrostream.origin', type:'alive' },
   { url: 'https://beta.afrostream.tv/alive', metric: 'alive.afrostream-beta.cdn.beta', type:'alive' },
   { url: 'https://afrostream-beta.herokuapp.com/alive', metric: 'alive.afrostream-beta.origin', type:'alive' },
+  // billings
+  { url: 'https://afrostream-billings.herokuapp.com/alive', metric: 'alive.afrostream-billings.origin', type:'alive'},
   // images
   { url: 'https://images-orange.cdn.afrostream.net/status.txt', metric: 'alive.imgix.cdn.images-orange', type:'200ok' }
 ];
